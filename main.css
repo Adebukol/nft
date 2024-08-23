@@ -8,6 +8,9 @@ body{
     margin-left: 30em;
     margin-right: 30em;
     margin-top: 10em;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 /* main{
     display: block;
@@ -19,7 +22,7 @@ article{
     align-items: center;
     background: hsl(216, 50%, 16%);
     width: 100%;
-    padding: 1em;
+    padding: 1.2em;
     border-radius: 1em;
 }
 .equilibrium{
@@ -36,17 +39,45 @@ h1{
 }
 h2{
     color: hsl(215, 51%, 70%);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
     margin-bottom: 1em; 
 }
 .view{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5em; 
+    align-items: center;
 }
 h3{
     color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+h4{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    border-width: 0.5px solid hsl(215, 51%, 70%);
+}
+h5{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    display: flex;
+    gap: 0.4em;
+    align-items: center;
+    margin-top: 1em;
+}
+.avatar{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+b{
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
 }
 
 .attribution { font-size: 11px; text-align: center; }
